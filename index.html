@@ -2,11 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>My Blog</title>
+    <!-- this line let the page reflow the content to match the screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Photo Retreat</title>
     <link
       href="//fonts.googleapis.com/css?family=Roboto:400,500,300"
       rel="stylesheet"
@@ -18,5 +16,74 @@
   <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
+    <header>
+      <div class="container" id="grid-header">
+          <h1 id="web-title">Photo Retreat</h1>
+          <p id="web-description">
+          Welcome to this little but cossy space where we all can share what we
+          know about this amazing world of photography
+          </p>
+          <a href="home">Home</a>
+          <a href="blog">Blog</a>
+          <a href="contact-us">Contact us</a>
+      </div>
+    </header>
+
+    <main>
+      <div class="container" id="grid-article1">
+        <article id="article1">
+          <h2 class="article-title">Long exposure photography</h2>
+          <img id="img-article1" src="pictures/longexposure.jpg" />
+          <p id="p-article1">
+            Long-exposure, time-exposure, or slow-shutter photography involves
+            using a long-duration shutter speed to sharply capture the stationary
+            elements of images while blurring, smearing, or obscuring the moving
+            elements. Long-exposure photography captures one element that
+            conventional photography does not: an extended period of time. The
+            paths of bright moving objects become clearly visible—clouds form
+            broad bands, vehicle lights draw bright streaks, stars leave trails in
+            the sky, and water waves appear smooth. Only bright objects leave
+            visible trails, whereas dark objects usually disappear. Boats in long
+            exposures disappear during the daytime, but draw bright trails from
+            their lights at night.
+          </p>
+        </article>
+      </div>
+      <div class="container" id="grid-article2">
+        </article id="img-article2">
+          <h2 class="article-title">Doble exposure photography</h2>
+          <picture>
+            <img id="img-article2" src="pictures/dobleexposure.jpg" />
+          </picture>
+          <p>
+            A double e xposure is a combination of two images into one where one
+            image is overlaid onto another at less than full opacity. This is done
+            with artistic intent (unless you're shooting film and forgot to wind
+            it between shots, but still you might get a serendipitously happy
+            accident.) This can be done in-camera or in post processing. In film
+            photography, double exposures are made by exposing the same portion of
+            film twice, resulting in an the second image being superimposed on the
+            first. In digital photography, double exposures can be made in-camera
+            in some cases when it's available as a creative effect in a body, in
+            photoshop, or in apps designed specifically to make digital double
+            exposures.
+          </p>
+        </article>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container" id="grid-footer"></div>
+        <a href="https://twitter.com/explore">
+          <img src="pictures/logo-instagram.png" />
+        </a>
+        <a href="https://twitter.com/explore">
+          <img src="pictures/logo-pintrest.png" />
+        </a>
+        <a href="https://twitter.com/explore">
+          <img src="pictures/logo-twitter.png" />
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
